@@ -18,3 +18,9 @@ backtesting tools.
 + IEX Cloud account for historical minute data
 (optional)
 + iexfinance >= 0.4.3 (optional)
+
+### Example
+
+![](bt_example/SG5_RSIN_AAPL.png)
+
+![](bt_example/cum_returns_net.png)

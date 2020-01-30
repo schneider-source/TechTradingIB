@@ -8,7 +8,7 @@ from backtest import SG1, SG2, SG3, SG4, SG5, SG6
 from plot import plot_bt, CompPlot
 
 
-odir = Path('out_bt', replace=True)
+odir = Path('bt_example', replace=True)
 
 # obtain market data
 symbol = 'AAPL'
