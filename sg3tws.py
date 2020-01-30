@@ -114,7 +114,7 @@ class SG3TWS(EWrapper, EClient):
         self.axes[1].set_ylabel('Oscillator', fontsize=14)
         self.axes[1].axhline(y=0, ls='-', c='k')
         self.axes[2].set_ylabel('Position', fontsize=14)
-        self.axes[3].set_ylabel('Cum Returns', fontsize=14)
+        self.axes[3].set_ylabel('Portfolio value', fontsize=14)
         self.axes[3].set_xlabel('Time', fontsize=14)
         self.lines = {
             'price': self.axes[0].plot([], [], label='price')[0],
